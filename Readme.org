@@ -1,0 +1,1 @@
+Archlinux PKGBUILD for installing [[https://github.com/vitorqb/daily-backup][Daily Backup]].
