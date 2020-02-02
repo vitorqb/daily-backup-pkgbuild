@@ -19,11 +19,12 @@ backup=()
 options=()
 install=
 changelog=
-source=("https://f000.backblazeb2.com/file/daily-backup-releases/$pkgname-$pkgver.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::https://github.com/vitorqb/daily-backup/archive/$pkgver.tar.gz")
 noextract=()
-md5sums=('8cbce04d22fb726b95b77fb08418f8e7')
+md5sums=('91241e13c552c6e176ca3a3e14eeab9c')
 validpgpkeys=()
 
 package() {
+    cd $pkgname-$pkgver
     ./install --prefix "$pkgdir"
 }
