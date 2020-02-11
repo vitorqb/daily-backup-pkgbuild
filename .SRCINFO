@@ -1,6 +1,6 @@
 pkgbase = daily-backup
 	pkgdesc = Daily backup utilities for vitor
-	pkgver = 0.2.1
+	pkgver = 0.3.0
 	pkgrel = 1
 	arch = any
 	license = GPL
@@ -9,8 +9,8 @@ pkgbase = daily-backup
 	depends = gnupg
 	optdepends = backblaze-b2
 	optdepends = openssh
-	source = daily-backup-0.2.1.tar.gz::https://github.com/vitorqb/daily-backup/archive/0.2.1.tar.gz
-	md5sums = 91241e13c552c6e176ca3a3e14eeab9c
+	source = daily-backup-0.3.0.tar.gz::https://github.com/vitorqb/daily-backup/archive/0.3.0.tar.gz
+	md5sums = f0c4805a4f624f1d60c4921813b9e816
 
 pkgname = daily-backup
 
